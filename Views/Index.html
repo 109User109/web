@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <script src="Main.js"></script>
+    <script src="Chat.js"></script>
+    <%- include ('partials/head.html') %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <%- include ('partials/navigation.html') %>
+    <%- include ('partials/estilos_home.html') %>
+    <form method="post" name="post" class="animate__animated animate__flipInY">
+        <hi id="h1s">Iniciar sesion</hi>
+        <input id="nombre_usuario" type="text" name="name" placeholder="Nombre de usuario">
+        <input id="apellido_usuario" type="text" name="apellido" placeholder="apellido">
+        <input id="enviar" type="submit" name="register">
+    </form>
+    
+</body>
+</html>
